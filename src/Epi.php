@@ -17,6 +17,7 @@ class Epi
     'cache' => array('base', 'EpiCache.php', 'cache-apc', 'cache-memcached'),
     'cache-apc' => array('base', 'EpiCache.php', 'EpiCache_Apc.php'),
     'cache-memcached' => array('base', 'EpiCache.php', 'EpiCache_Memcached.php'),
+    'cache-file' => array('base','EpiCache.php','EpiCache_File.php'),
     'config' => array('base', 'EpiConfig.php'),
     'database' => array('base', 'EpiDatabase.php'),
     'debug' => array('EpiDebug.php'),
