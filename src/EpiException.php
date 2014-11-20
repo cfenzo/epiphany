@@ -25,6 +25,7 @@ class EpiCacheException extends EpiException{}
 class EpiCacheTypeDoesNotExistException extends EpiCacheException{}
 class EpiCacheMemcacheClientDneException extends EpiCacheException{}
 class EpiCacheMemcacheConnectException extends EpiCacheException{}
+class EpiCacheFilePathNotWriteableException extends EpiCacheException{}
 class EpiDatabaseException extends EpiException{}
 class EpiDatabaseConnectionException extends EpiDatabaseException{}
 class EpiDatabaseQueryException extends EpiDatabaseException{}
