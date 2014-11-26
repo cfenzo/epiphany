@@ -96,6 +96,6 @@
 
         private function file_name($key){
             $safe_key = strtolower(preg_replace("/[^a-zA-Z0-9_\s\.]+/","",$key));
-            return $this->path.DIRECTORY_SEPARATOR.$safe_key.'.cache';
+            return $this->path . DIRECTORY_SEPARATOR . '.' . $safe_key . '.cache';
         }
     }
