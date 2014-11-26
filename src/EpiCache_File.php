@@ -41,7 +41,7 @@
 
         public function set($key = null, $value = null, $expiry = null)
         {
-            if(empty($expiry)) {
+            if(empty($expiry) && $expiry !== 0) {
                 $expiry = $this->expiry;
             }
             if(empty($key) || $value === null){
